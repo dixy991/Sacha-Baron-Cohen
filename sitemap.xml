@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<url>
+  <loc>https://sachabaroncohen.netlify.com/</loc>
+  <lastmod>2019-26-6</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://sachabaroncohen.netlify.com/about.html</loc>
+   <lastmod>2019-26-6</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://sachabaroncohen.netlify.com/characters.html</loc>
+   <lastmod>2018-18-8</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://sachabaroncohen.netlify.com/filmography.html</loc>
+   <lastmod>2019-26-6</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sachabaroncohen.netlify.com/author.html</loc>
+   <lastmod>2019-26-6</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://sachabaroncohen.netlify.com/contact.html</loc>
+   <lastmod>2019-26-6</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.70</priority>
+</url>
+</urlset>

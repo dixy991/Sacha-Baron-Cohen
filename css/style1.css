@@ -1,0 +1,19 @@
+#pocetna {
+  background-image: url("../img/sacha.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 700px;
+}
+
+.omot {
+  min-height: 500px;
+}
+
+.slika img {
+  width: 100%;
+}
+
+.manja img {
+  height: 200px;
+}
+/*# sourceMappingURL=style1.css.map */

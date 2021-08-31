@@ -1,0 +1,245 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+}
+
+body a:hover {
+  text-decoration: none;
+  color: #263238 !important;
+}
+
+.row {
+  margin: 0px;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.naziv {
+  letter-spacing: 2px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#slajder {
+  background-image: url("../img/cohen.jpg");
+  background-size: cover;
+  height: 650px;
+  background-attachment: fixed;
+}
+
+#logo {
+  font-size: 30px;
+}
+
+.citat, .traka {
+  min-height: 100px;
+}
+
+.citat {
+  font-size: 27px;
+}
+
+.plavo img {
+  height: 450px;
+  width: 100%;
+}
+
+.futer {
+  min-height: 330px;
+}
+
+.futer .fa {
+  font-size: 20px;
+}
+
+.ispod-slajdera, .lik {
+  height: 300px;
+}
+
+.desno img {
+  height: 300px;
+  width: 100%;
+}
+
+#levoSlika img {
+  width: 100%;
+  height: 500px;
+}
+
+.film img {
+  height: 100%;
+}
+
+#meni {
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.naslovcic {
+  line-height: 0.1em;
+  border-bottom: 5px solid #263238;
+  margin: 100px 0px !important;
+}
+
+.slider {
+  height: 500px !important;
+}
+
+.slajder {
+  height: 100% !important;
+}
+
+.indicators {
+  display: none;
+}
+
+.card-image {
+  height: 200px;
+}
+
+.card-image img {
+  height: 100%;
+}
+
+.no-gutters {
+  min-height: 250px;
+  margin-bottom: 0;
+}
+
+.no-gutters img {
+  height: 100%;
+}
+
+.linije::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 7px;
+  margin: 30px 0px;
+  border-radius: 10px;
+  background-color: #000;
+}
+
+.linije::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 7px;
+  margin: 30px 0px;
+  border-radius: 10px;
+  background-color: #000;
+}
+
+.btn-link:hover {
+  background-color: #fff9c4 !important;
+  text-decoration: none;
+  color: #000 !important;
+}
+
+input:focus, textarea:focus {
+  border-bottom: 1px solid #000 !important;
+  -webkit-box-shadow: 1px solid #000 !important;
+          box-shadow: 1px solid #000 !important;
+  color: #000 !important;
+}
+
+@media (max-width: 995px) {
+  #slajder {
+    height: 600px;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  footer {
+    text-align: center;
+  }
+  .naslovcic {
+    font-size: 35px;
+  }
+  .brand-logo {
+    margin: 0px !important;
+  }
+}
+
+@media (max-width: 780px) {
+  #slajder {
+    height: 550px;
+  }
+  .srednji {
+    margin: 50px 0px;
+  }
+  #levoSlika {
+    margin-bottom: 20%;
+  }
+  .slider {
+    height: 400px !important;
+  }
+  .slider .caption {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    color: #fff9c4 !important;
+    padding-top: 0px !important;
+  }
+  .tekstina {
+    font-size: 1.2em !important;
+    text-align: justify !important;
+  }
+  .card-image {
+    height: 300px !important;
+  }
+  .veciNaslovcic {
+    font-size: 25px !important;
+  }
+  .veciNaslovcic span {
+    padding: 0% 1% !important;
+    height: 50px !important;
+  }
+  .ispod-slajdera {
+    height: 200px !important;
+  }
+  .naslovcic {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  #slajder {
+    height: 500px;
+  }
+  #levoSlika img {
+    height: 400px;
+  }
+  .citat {
+    font-size: 1.5em !important;
+  }
+  .slider {
+    height: 300px !important;
+  }
+  .naslovcic {
+    font-size: 25px;
+  }
+  .naslovcic span {
+    padding: 0% 1% !important;
+  }
+  .veciNaslovcic {
+    font-size: 1.3em !important;
+  }
+  h1 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 370px) {
+  .naslovcic {
+    font-size: 20px;
+  }
+  .veciNaslovcic {
+    font-size: 1em !important;
+  }
+  .ispod-slajdera {
+    height: 150px !important;
+  }
+  .tekstina {
+    font-size: 1em !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
